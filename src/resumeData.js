@@ -65,30 +65,41 @@ let resumeData = {
     ],
     "portfolio":[
       {
-        "name":"Jeff's house",
-        "description":"Exterior painting - Summer 2018",
-        "imgurl":"images/portfolio/portfolio1.jpg"
+        "name":"Victor Stampatori's house",
+        "description":"Interior painting - Winter 2020",
+        "imgurl":[
+          "images/portfolio/portfolio1-a.jpg",
+          "images/portfolio/portfolio1-b.jpg",
+          "images/portfolio/portfolio1-c.jpg",
+          "images/portfolio/portfolio1-d.jpg"
+        ]
       },
       {
         "name":"Paul's office",
         "description":"Interior painting - Winter 2019",
-        "imgurl":"images/portfolio/portfolio2.jpg"
+        "imgurl":[
+          "images/portfolio/portfolio2.jpg"
+        ]
       },
       {
         "name":"Local church renovation - Summer 2020",
         "description":"Interior and exterior renovation and painting - 2020",  
-        "imgurl":"images/portfolio/portfolio3.jpg"
+        "imgurl":[
+          "images/portfolio/portfolio3.jpg"
+        ]
       },
       {
         "name":"Local school project - Spring 2020",
         "description":"Small surface reparing and painting - 2020",
-        "imgurl":"images/portfolio/portfolio4.jpg"
+        "imgurl":[
+          "images/portfolio/portfolio4.jpg"
+        ]
       }
     ],
     "testimonials":[
        {
-         "description":"He did a great job and his in-depth knowledge of types of paint in regards to type of surface is remarkable.",
-         "name":"Jeff Stevenson - Friend"
+         "description":"Finally we repainted our house's first floor, we knew that Danny was available immediately. He did a fantastic job but the best surprise was the total cost. Before we asked an appraisal to another company and their price was much higher point out because our walls where covered will wallpaper and it was a lot of time consuming to take it out before painting. Danny's appraisal was not even considered that  extra time. Definitely I'll recommend  Danny to you and all my friends.",
+         "name":"Victor Stampatori - Friend"
        },
        {
          "description":"He has an exceptional ability to envision and coordinate colors.",

@@ -101,14 +101,14 @@
 /*----------------------------------------------------*/
 /*	Modal Popup
 ------------------------------------------------------*/
+/* Rircardo - 2020-05-09 - Replaced by react-image-lightbox
 
     $('.item-wrap a').magnificPopup({
-
-       type:'inline',
-       fixedContentPos: false,
-       removalDelay: 200,
-       showCloseBtn: false,
-       mainClass: 'mfp-fade'
+      type:'inline',
+      fixedContentPos: false,
+      removalDelay: 200,
+      showCloseBtn: false,
+      mainClass: 'mfp-fade'
 
     });
 
@@ -116,7 +116,7 @@
     		e.preventDefault();
     		$.magnificPopup.close();
     });
-
+*/
 
 /*----------------------------------------------------*/
 /*	Flexslider

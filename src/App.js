@@ -10,7 +10,7 @@ import resumeData from './resumeData';
 import ReactGA from 'react-ga';
 
 ReactGA.initialize('UA-165395508-1');
-ReactGA.pageview('/danny');
+ReactGA.pageview('/');
 
 class App extends Component {
   render() {
