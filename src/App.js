@@ -7,12 +7,15 @@ import Testimonials from './components/Testimonials';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 import resumeData from './resumeData';
-import ReactGA from 'react-ga';
-
-ReactGA.initialize('UA-165395508-1');
-ReactGA.pageview('/');
+import {PageView, initGA} from './utils/GATracking';
 
 class App extends Component {
+
+  componentDidMount() {
+    initGA('UA-165395508-1');
+    PageView();
+  }
+  
   render() {
     return (
       <div className="App">

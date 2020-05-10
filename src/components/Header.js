@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import {Event} from '../utils/GATracking';
+
 export default class Header extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -11,11 +13,11 @@ export default class Header extends Component {
             <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
             <ul id="nav" className="nav">
               <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-              <li><a className="smoothscroll" href="#about">About</a></li>
-              <li><a className="smoothscroll" href="#resume">Paintings & Skills</a></li>
-              <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-              <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
-              <li><a className="smoothscroll" href="#contact">Contact</a></li>
+              <li><a className="smoothscroll" href="#about" onClick={()=> Event("ABOUT", "Clicked on About navigation option", "ABOUT_SECTION")}>About</a></li>
+              <li><a className="smoothscroll" href="#resume" onClick={()=> Event("SKILLS", "Clicked on Paintings & Skills navigation option", "SKILLS_SECTION")}>Paintings & Skills</a></li>
+              <li><a className="smoothscroll" href="#portfolio" onClick={()=> Event("WORKS", "Clicked on Works navigation option", "WORKS_SECTION")}>Works</a></li>
+              <li><a className="smoothscroll" href="#testimonials" onClick={()=> Event("TESTIMONIALS", "Clicked on Testimonials navigation option", "TESTIMONIALS_SECTION")}>Testimonials</a></li>
+              <li><a className="smoothscroll" href="#contact" onClick={()=> Event("CONTACT", "Clicked on Contact navigation option", "CONTACT_SECTION")}>Contact</a></li>
             </ul>
           </nav>
 
@@ -30,7 +32,7 @@ export default class Header extends Component {
                   resumeData.socialLinks && resumeData.socialLinks.map(item => {
                     return (
                       <li key={item.name}>
-                        <a href={item.url} target="_blank"><i className={item.className}></i></a>
+                        <a href={item.url} target="_blank" onClick={()=> Event("HEADER", "Clicked on "+item.name+" icon", "HEADER_SECTION")}><i className={item.className}></i></a>
                       </li>
                     )
                   }

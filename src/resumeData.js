@@ -67,32 +67,54 @@ let resumeData = {
       {
         "name":"Victor Stampatori's house",
         "description":"Interior painting - Winter 2020",
-        "imgurl":[
-          "images/portfolio/portfolio1-a.jpg",
-          "images/portfolio/portfolio1-b.jpg",
-          "images/portfolio/portfolio1-c.jpg",
-          "images/portfolio/portfolio1-d.jpg"
+        "images":[
+          {
+            "imgUrl": "images/portfolio/portfolio1-a.jpg",
+            "imgDescription": "After Danny's work..."
+          },
+          {
+            "imgUrl": "images/portfolio/portfolio1-b.jpg",
+            "imgDescription": "...everything perfectly done!"
+          },
+          {
+            "imgUrl": "images/portfolio/portfolio1-c.jpg",
+            "imgDescription": "Before Danny's work..."
+          },
+          {
+            "imgUrl": "images/portfolio/portfolio1-d.jpg",
+            "imgDescription": "...He had to get rid off all the wallpaper!"
+          }
         ]
-      },
+      }
+      ,
       {
         "name":"Paul's office",
         "description":"Interior painting - Winter 2019",
-        "imgurl":[
-          "images/portfolio/portfolio2.jpg"
+        "images":[
+          {
+            "imgUrl": "images/portfolio/portfolio2.jpg",
+            "imgDescription": ""
+          }
         ]
       },
       {
         "name":"Local church renovation - Summer 2020",
         "description":"Interior and exterior renovation and painting - 2020",  
-        "imgurl":[
-          "images/portfolio/portfolio3.jpg"
+        "images":[
+          {
+            "imgUrl": "images/portfolio/portfolio3.jpg",
+            "imgDescription": ""
+          }
         ]
       },
       {
         "name":"Local school project - Spring 2020",
         "description":"Small surface reparing and painting - 2020",
-        "imgurl":[
-          "images/portfolio/portfolio4.jpg"
+        "images":[
+          {
+            "imgUrl": "images/portfolio/portfolio4.jpg",
+            "imgDescription": ""
+          }
         ]
       }
     ],

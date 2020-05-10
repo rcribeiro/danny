@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import {Event} from '../utils/GATracking';
+
 export default class Footer extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -11,7 +13,7 @@ export default class Footer extends Component {
                 resumeData.socialLinks && resumeData.socialLinks.map((item) => {
                   return (
                     <li>
-                      <a href={item.url}>
+                      <a href={item.url} target="_blank" onClick={()=> Event("FOOTER", "Clicked on "+item.name+" icon", "FOOTER_SECTION")}>
                         <i className={item.className} />
                       </a>
                     </li>
