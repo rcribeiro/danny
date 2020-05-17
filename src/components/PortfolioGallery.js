@@ -48,8 +48,6 @@ export default class PorfolioGallery extends Component {
                 <div className="portfolio-item-meta">
                     <h5>{item.name}</h5>
                     <p>{item.description}</p>
-
-
                 </div>
                 </div>
             </a>

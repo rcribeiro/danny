@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import ContactInfo from './ContactInfo';
+
 export default class About extends Component {
    render() {
       let resumeData = this.props.resumeData;
@@ -15,12 +17,14 @@ export default class About extends Component {
                         resumeData.aboutme
                      }
                   </p>
+                  <br></br>
                   <div className="row">
                      <div className="columns contact-details">
                         <h2>Contact Details</h2>
                         <p className="address">
                            <span>{resumeData.name}</span>
                            <br></br>
+                           <ContactInfo resumeData={resumeData} />
                            <span>
                               {resumeData.address}
                            </span>
