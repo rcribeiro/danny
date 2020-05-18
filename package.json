@@ -1,9 +1,11 @@
 {
+  "homepage": "https://rcribeiro.github.io/danny/",
   "name": "Danny",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "react": "^16.6.0",
+    "react-adsense": "^0.1.0",
     "react-cookie-consent": "^3.0.0",
     "react-dom": "^16.6.0",
     "react-ga": "^2.7.0",

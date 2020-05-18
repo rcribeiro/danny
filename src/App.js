@@ -8,6 +8,7 @@ import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 import resumeData from './resumeData';
 import {PageView, initGA} from './utils/GATracking';
+import AdSense from 'react-adsense';
 
 class App extends Component {
 
@@ -19,6 +20,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        {/*   <AdSense.Google client='ca-pub-7690096007319887' slot='xyz' /> */}
         <Header resumeData={resumeData} />
         <About resumeData={resumeData} />
         <Resume resumeData={resumeData} />
