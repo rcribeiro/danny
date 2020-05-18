@@ -6,7 +6,7 @@ let resumeData = {
     "cellPhone":" (647) 529 7376",
     "eMail": " rotheram123@yahoo.ca",
     "skypeid": " ",
-    "roleDescription": "Professional and personalized painting services at very reasonable and negotiable rates.",
+    "roleDescription": "Professional and personalized painting services at very reasonable and negotiable rates. I didn't know",
     "socialLinks":[
         {
           "name":"linkedin",
