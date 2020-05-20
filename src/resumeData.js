@@ -24,7 +24,7 @@ let resumeData = {
         }      ],
     "aboutme":"I am a local painter with years of experience in both interior and exterior painting. I ensure cleanliness in my work and sourrounding workspace. I am very professional in my work with guaranteed customer satisfaction. I work with all brands of paints, but highly recommend Benjamin Moore, Sherwin Williams or Dulux Paints.",
     "address":"Mississauga, Ontario, Canada",
-    "website":"http://www.dannyspainting.ca",
+    "website":"https://www.dannyspainting.ca",
     "paintings":[
       {
         "PaintingType":"Interior and Exterior House Paint",

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <sitemap>
+      <loc>https://www.dannyspainting.ca</loc>
+      <lastmod>2020-05-20T12:10:00:00+00:00</lastmod>
+   </sitemap>
+   <sitemap>
+      <loc>https://www.dannyspainting.ca#home</loc>
+      <lastmod>2020-05-20T12:10:00:00+00:00</lastmod>
+   </sitemap>
+   <sitemap>
+      <loc>https://www.dannyspainting.ca#about</loc>
+      <lastmod>2020-05-20T12:10:00:00+00:00</lastmod>
+   </sitemap>
+   <sitemap>
+      <loc>https://www.dannyspainting.ca#resume</loc>
+      <lastmod>2020-05-20T12:10:00:00+00:00</lastmod>
+   </sitemap>
+   <sitemap>
+      <loc>https://www.dannyspainting.ca#portfolio</loc>
+      <lastmod>2020-05-20T12:10:00:00+00:00</lastmod>
+   </sitemap>
+   <sitemap>
+      <loc>https://www.dannyspainting.ca#testimonials</loc>
+      <lastmod>2020-05-20T12:10:00:00+00:00</lastmod>
+   </sitemap>
+   <sitemap>
+      <loc>https://www.dannyspainting.ca#contact</loc>
+      <lastmod>2020-05-20T12:10:00:00+00:00</lastmod>
+   </sitemap>
+</sitemapindex>
