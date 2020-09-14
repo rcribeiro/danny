@@ -27,7 +27,7 @@ export default class Porfolio extends Component {
               {
                 resumeData.portfolio && resumeData.portfolio.map((item) => {
                   return (
-                    <PortfolioGallery item={item} />
+                    <PortfolioGallery item={item} key={item.name}/>
                   )
                 })
               }

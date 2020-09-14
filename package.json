@@ -3,18 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "imagemin": "^7.0.1",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-pngquant": "^8.0.0",
+    "imagemin-webp": "^6.0.0",
     "react": "^16.6.0",
     "react-adsense": "^0.1.0",
-    "react-cookie-consent": "^3.0.0",
     "react-dom": "^16.6.0",
     "react-ga": "^2.7.0",
     "react-image-lightbox": "^5.1.1",
-    "react-router-dom": "^5.1.2",
     "react-scripts": "2.1.1"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -30,6 +31,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "gh-pages": "^2.1.1"
+    "progress-bar-webpack-plugin": "^2.1.0",
+    "webpack-bundle-analyzer": "^3.8.0"
   }
 }

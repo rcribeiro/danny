@@ -12,8 +12,8 @@ export default class Footer extends Component {
               {
                 resumeData.socialLinks && resumeData.socialLinks.map((item) => {
                   return (
-                    <li>
-                      <a href={item.url} target="_blank" onClick={()=> Event("FOOTER", "Clicked on "+item.name+" icon", "FOOTER_SECTION")}>
+                    <li key={item.name}>
+                      <a href={item.url} target="_blank" rel="noopener noreferrer" onClick={()=> Event("FOOTER", "Clicked on "+item.name+" icon", "FOOTER_SECTION")}>
                         <i className={item.className} />
                       </a>
                     </li>

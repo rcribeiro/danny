@@ -3,7 +3,7 @@ export default class Testimonials extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
-      <section id="testimonials">
+      <section id="testimonials" >
         <div className="text-container">
           <div className="row">
             <div className="two columns header-col">
@@ -15,7 +15,7 @@ export default class Testimonials extends Component {
                   {
                     resumeData.testimonials && resumeData.testimonials.map((item) => {
                       return (
-                        <li>
+                        <li key={item.name}>
                           <blockquote>
                             <p>
                               {item.description}

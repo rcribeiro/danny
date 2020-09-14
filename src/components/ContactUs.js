@@ -9,8 +9,8 @@ export default class ContactUs extends Component {
         <div className="row section-head">
           <div className="ten columns">
             <p className="lead">
-            "Always available at your service for any painting job and free estimates!"
-              </p>
+              "Always available at your service for any painting job and free estimates!"
+            </p>
           </div>
         </div>
         <div className="row">
